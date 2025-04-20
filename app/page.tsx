@@ -6,11 +6,13 @@ import { PreBooking } from "@/components/home/pre-booking";
 import { ContactInfo } from "@/components/home/contact-info";
 import { Footer } from "@/components/footer";
 import FloatingMenu from "@/components/floating-menu";
+import GoToTopButton from "@/components/got-to-top-button";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <FloatingMenu />
+      <GoToTopButton />
       <HeroSection />
 
       {/* About the Artist */}
