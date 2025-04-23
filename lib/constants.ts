@@ -1,3 +1,5 @@
+import { title } from "process";
+
 // Sample upcoming events data
 const events = [
   {
@@ -54,15 +56,22 @@ const tracks = [
 const videos = [
   {
     id: 1,
-    title: "Live at The Sound Garden",
-    embedUrl: "https://www.youtube.com/embed/19g66ezsKAg",
-    thumbnail: "/placeholder.svg?height=180&width=320",
+    title: "Live Performance at The Sound Garden",
+    embedUrl:
+      "https://www.instagram.com/reel/C9-_nh3yMkz/?igsh=MXJicXFjOWxrMG4zYw==",
   },
   {
     id: 2,
-    title: "Music Festival Performance",
-    embedUrl: "https://www.youtube.com/embed/19g66ezsKAg",
-    thumbnail: "/placeholder.svg?height=180&width=320",
+
+    title: "Live Performance at Melody Club",
+    embedUrl:
+      "https://www.instagram.com/reel/DHFUWStpDk3/?igsh=em4wdDh3NWY4eGsy",
+  },
+  {
+    id: 3,
+    title: "Live Performance at Rhythm House",
+    embedUrl:
+      "https://www.instagram.com/reel/DBUsxOlSyok/?igsh=MTdjcnN2OXVkdDQ0bQ==",
   },
 ];
 
